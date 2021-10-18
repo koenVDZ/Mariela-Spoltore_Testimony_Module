@@ -19,27 +19,41 @@ $lang = $app->getLanguage();
 $lang->load('mod_mstestimony', JPATH_SITE);
 ?>
 
-<div class="about-me_body">
-	<div class="fLower_heading">
-		<img class="flower_image_corner" src="images/logos/flower_corner_90.png" alt="Corner Flower" />
-		<h2 class="about-me_title"><?php echo Text::_('MOD_MSTESTIMONY_A_LITTLE_ABOUT'); ?></h2>
-	</div>
-	<div class="about-me_container">
-		<div class="about-me_item about-me_item_1">
-			<img class="about-me_image" src="images/articles/mariela_headshot.png" alt="Mariela Spoltore Head shot" />
-		</div>
-		<div class="about-me_item about-me_item_2">
-			<img class="about-me_image_2" src="images/logos/tree_flower_01_60.png" alt="Flower" />
-			<p><?php echo Text::_('MOD_MSTESTIMONY_I_AM_A_PRODUCT'); ?></p>
-			<p><?php echo Text::_('MOD_MSTESTIMONY_MY_SHAMAN_IS_T'); ?></p>
-			<br />
-			<div class="byhand about-me_byhand">Mari</div>
-			<div class="about-me_button">
-				<a href="index.php?option=com_content&amp;view=article&amp;id=31&amp;catid=2&amp;lang=en-GB"><?php echo Text::_('MOD_MSTESTIMONY_KEEP_READING'); ?></a>
-			</div>
-		</div>
-	</div>
-	<div class="flower_chain_top">
-		<img class="flower_image_top" src="images/logos/flower_chain_300.png" alt="Corner Flower" />
-	</div>
+<div class="testimonial-title">
+    <h2><?php echo Text::_('MOD_MSTESTIMONY_LAS_MUJERES'); ?></h2>
+</div>
+<div class="testimonial-container">
+  <div class="testimonial-item">
+    <div class="testimonial-image-container">
+      <img class="testimonial-image" src="https://marielaspoltore.com/images/testemonial_florencia_massacessi_240.jpg"
+        alt="Florencia Massacessi">
+    </div>
+    <span class="testimonial-icon-top fas fa-quote-right fa-3x"> </span>
+    <p><?php echo Text::_('MOD_MSTESTIMONY_LA_SANACION'); ?></p>
+    <div class="testimonial-byhand byhand">Florencia Massacessi</div>
+    <div class="testimonial-icon fas fa-map-marker-alt"><span class="testimonial-place"> California (EEUU)</span></div>
+    <div><img class="testimonial_image_2" src="https://marielaspoltore.com/images/logos/tree_flower_01_60.png" alt="Flower"></div>
+  </div>
+  <div class="testimonial-item">
+    <div class="testimonial-image-container">
+      <img class="testimonial-image" src="https://marielaspoltore.com/images/testemonial_laura_pomilio_240.jpg"
+        alt="Laura Pomilio">
+    </div>
+    <span class="testimonial-icon-top fas fa-quote-right fa-3x"> </span>
+    <p><?php echo Text::_('MOD_MSTESTIMONY_LA_TERAPIA'); ?></p>
+    <div class="testimonial-byhand byhand">Laura Pomilio</div>
+    <div class="testimonial-icon fas fa-map-marker-alt"><span class="testimonial-place"> Puerto Iguazú (Arg)</span></div>
+    <div><img class="testimonial_image_2" src="https://marielaspoltore.com/images/logos/tree_flower_01_60.png" alt="Flower"></div>
+  </div>
+  <div class="testimonial-item">
+    <div class="testimonial-image-container">
+      <img class="testimonial-image" src="https://marielaspoltore.com/images/testemonial_laura_lattanzi_240.jpg"
+        alt="Laura Lattanzi">
+    </div>
+    <span class="testimonial-icon-top fas fa-quote-right fa-3x"> </span>
+    <p><?php echo Text::_('MOD_MSTESTIMONY_COMENCE_A_T'); ?></p>
+    <div class="testimonial-byhand byhand">Laura Lattanzi</div>
+    <div class="testimonial-icon fas fa-map-marker-alt"><span class="testimonial-place"> Santiago (Chile)</span></div>
+    <div><img class="testimonial_image_2" src="https://marielaspoltore.com/images/logos/tree_flower_01_60.png" alt="Flower"></div>
+  </div>
 </div>
