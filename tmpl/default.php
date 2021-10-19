@@ -25,7 +25,7 @@ $lang->load('mod_mstestimony', JPATH_SITE);
 <div class="testimonial-container">
   <div class="testimonial-item">
     <div class="testimonial-image-container">
-      <img class="testimonial-image" src="https://marielaspoltore.com/images/testemonial_florencia_massacessi_240.jpg"
+      <img class="testimonial-image" src="https://marielaspoltore.com/images/articles/testemonial_florencia_massacessi_240.jpg"
         alt="Florencia Massacessi">
     </div>
     <span class="testimonial-icon-top fas fa-quote-right fa-3x"> </span>
@@ -36,7 +36,7 @@ $lang->load('mod_mstestimony', JPATH_SITE);
   </div>
   <div class="testimonial-item">
     <div class="testimonial-image-container">
-      <img class="testimonial-image" src="https://marielaspoltore.com/images/testemonial_laura_pomilio_240.jpg"
+      <img class="testimonial-image" src="https://marielaspoltore.com/images/articles/testemonial_laura_pomilio_240.jpg"
         alt="Laura Pomilio">
     </div>
     <span class="testimonial-icon-top fas fa-quote-right fa-3x"> </span>
@@ -47,7 +47,7 @@ $lang->load('mod_mstestimony', JPATH_SITE);
   </div>
   <div class="testimonial-item">
     <div class="testimonial-image-container">
-      <img class="testimonial-image" src="https://marielaspoltore.com/images/testemonial_laura_lattanzi_240.jpg"
+      <img class="testimonial-image" src="https://marielaspoltore.com/images/articles/testemonial_laura_lattanzi_240.jpg"
         alt="Laura Lattanzi">
     </div>
     <span class="testimonial-icon-top fas fa-quote-right fa-3x"> </span>
